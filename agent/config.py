@@ -61,7 +61,7 @@ ALL_INSTRUMENTS = {
 # AGENT BEHAVIOR
 # ============================================================
 
-CLAUDE_MODEL = "claude-opus-4-5"  # Top-tier reasoning for analysis
+CLAUDE_MODEL = "claude-opus-4-7"  # Top-tier reasoning for analysis
 MAX_TOOL_ITERATIONS = 8           # Safety cap on agent loop
 BRIEF_TIMEZONE = "Europe/Madrid"  # CET — adjust if you relocate
 
