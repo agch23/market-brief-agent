@@ -6,8 +6,8 @@ on:
 
   # Scheduled trigger — runs daily at 06:00 UTC = 07:00 CET (winter) / 08:00 CEST (summer)
   # We keep it at 06:00 UTC so the brief lands consistently around 07:00 your local time in winter.
-  schedule:
-    - cron: "0 6 * * 1-5"  # Mon–Fri only (no weekends)
+  # schedule:
+  #   - cron: "0 6 * * 1-5"  # Mon–Fri only (no weekends)
 
 permissions:
   contents: write  # Allow the workflow to commit briefs back to the repo
